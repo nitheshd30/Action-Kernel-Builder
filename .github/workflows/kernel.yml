@@ -6,13 +6,15 @@ on:
       DEVICE_NAME:
         description: 'Your device codename.'
         required: true
-        default: ''
+        default: 'spacewar'
       ANDROID_VERSION:
         description: 'Your android version.'
         required: true
         default: ''
         type: choice
         options:
+        - v-oss
+        - u-oss
         - t-oss
         - s-oss
         - r-oss
