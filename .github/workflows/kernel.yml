@@ -6,7 +6,7 @@ on:
       DEVICE_NAME:
         description: 'Your device codename.'
         required: true
-        default: 'spacewar'
+        default: ''
       ANDROID_VERSION:
         description: 'Your android version.'
         required: true
